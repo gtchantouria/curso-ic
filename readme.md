@@ -79,7 +79,10 @@ docker run \
   -v jenkins:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
   jenkinsci/blueocean
+  
 //para entender el -v /var/run/docker.sock:/var/run/docker.sock
+
+
 //leer https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/
 
 2) buscar el passsword para continuar la instalacion
