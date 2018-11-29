@@ -70,6 +70,7 @@ $ ./gradlew bootRun
    
    1) instalar jenkis dockerizado
 
+```sh
 docker run \
   -u root \
   --name jenkins \
@@ -79,7 +80,9 @@ docker run \
   -v jenkins:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
   jenkinsci/blueocean
-  
+```
+
+
 //para entender el -v /var/run/docker.sock:/var/run/docker.sock
 
 
